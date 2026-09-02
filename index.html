@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Joy Omonya — Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="nav-links">
+      <a href="#home" class="active">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#services">SKILLS</a>
+      <a href="#portfolio">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+    </div>
+  </div>
+</nav>
+
+<header id="home" class="hero">
+  <div class="hero-content">
+    <p class="hero-badge">I'm Joy Omonya</p>
+    <h1>DEVELOPER</h1>
+    <div class="socials">
+      <a href="#" aria-label="GitHub" class="social-icon">GH</a>
+      <a href="#" aria-label="LinkedIn" class="social-icon">in</a>
+      <a href="mailto:hello@joyomonya.dev" aria-label="Email" class="social-icon">@</a>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="section">
+  <div class="about-grid">
+    <div class="about-photo">
+      <img src="images/joy-photo.jpg" alt="Joy Omonya" />
+    </div>
+    <div class="about-content">
+      <h2>ABOUT ME</h2>
+      <p>
+        I'm an early-career full-stack developer who works across React and Tailwind on the frontend,
+        Python and Flask underneath, with PostgreSQL and MySQL holding the data together.
+        I'm looking for a role where I can keep building on that foundation, learn from people more experienced
+        than me, and contribute from day one.
+      </p>
+      <ul class="skill-list">
+        <li>React, JavaScript, Tailwind CSS</li>
+        <li>Python, MySQL, PostgreSQL, NoSQL</li>
+        <li>Git, Docker</li>
+        <li>Testing &amp; Deployment (Postman, Jest, Heroku, Vercel, GitHub Pages)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section alt">
+  <h2 class="center">SKILLS</h2>
+  <div class="skills-grid">
+    <div class="skills-card">
+      <div class="skills-icon">💻</div>
+      <h3>Development</h3>
+      <p>I build fast, secure, responsive apps, frontend to backend.</p>
+    </div>
+    <div class="skills-card">
+      <div class="skills-icon">📊</div>
+      <h3>Data Analytics &amp; Insights</h3>
+      <p>I can turn raw data into a clear picture when a project needs it, not just build the app.</p>
+    </div>
+    <div class="skills-card">
+      <div class="skills-icon">🗄️</div>
+      <h3>Database Architecture &amp; Optimization</h3>
+      <p>I design schemas that stay clean and easy to work with as an app grows.</p>
+    </div>
+    <div class="skills-card">
+      <div class="skills-icon">✅</div>
+      <h3>Testing &amp; Deployment</h3>
+      <p>I write testable code and ship it with confidence, using Postman, Jest, and Docker.</p>
+    </div>
+    <div class="skills-card">
+      <div class="skills-icon">📣</div>
+      <h3>Tech-Driven Digital Marketing Solutions</h3>
+      <p>I create data-informed marketing strategies that drive engagement and conversions.</p>
+    </div>
+    <div class="skills-card">
+      <div class="skills-icon">🌍</div>
+      <h3>Tech for Impact</h3>
+      <p>I would like to use technology to create solutions that have a positive impact on society.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="section">
+  <h2 class="center">PROJECTS</h2>
+  <div class="portfolio-grid">
+    <article class="project-card">
+      <div class="project-thumb">SendIt</div>
+      <div class="project-info">
+        <h3>SendIt</h3>
+        <p>Built the authentication system for SendIt, a courier delivery app. Handled signup, login, and role-based access so couriers, customers, and admins each see their own data.</p>
+        <p class="stack"><em>Tech Stack:</em> Node.js, Express, PostgreSQL, JWT</p>
+        <p>https://sendit-team.netlify.app/ </p>
+      </div>
+    </article>
+    <article class="project-card">
+      <div class="project-thumb"><img src="images/chatbot.png" alt="Support Chatbot interface" /></div>
+      <div class="project-info">
+        <h3>Support Chatbot (RAG)</h3>
+        <p>Built end to end. A support chatbot that answers from a real knowledge base instead of guessing, and it admits when it doesn't know.</p>
+        <p class="stack"><em>Tech Stack:</em> Python, ChromaDB, sentence-transformers, Gemini API, Streamlit</p>
+        <p>https://support-chatbot-rag-494tybzpclevykh3e4kq95.streamlit.app/</p>
+      </div>
+    </article>
+    <article class="project-card">
+      <div class="project-thumb"><img src="images/farmfolio.png" alt="FarmFolio homepage" /></div>
+      <div class="project-info">
+        <h3>FarmFolio</h3>
+        <p>Built end to end. A farm management platform for an agricultural initiative in East Africa: input, yield, and cost tracking, a marketplace, and vet booking.</p>
+        <p class="stack"><em>Tech Stack:</em> Next.js, React, Tailwind CSS, Prisma, SQLite</p>
+        <p>https://farmfolio-beta.vercel.app/ </p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="contact-banner">
+  <h2>CONTACT</h2>
+  <p>Open to working student roles, internships, and freelance builds.</p>
+  <a href="mailto:Joyomonya85@gmail.com" class="btn-dark">Send an email</a>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Joy Omonya.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
